@@ -1,0 +1,397 @@
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+     font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+}
+
+.section {
+    padding: 80px 20px;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* Home page IT Support section stop */
+
+
+
+/* IT support benefits section start */
+
+
+.IT_Support_benefits_section {
+  padding: 80px 20px;
+  background: #f9f9f9;
+}
+
+.IT_Support_benefits_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.IT_Support_benefits_header .IT_Support_benefits_label {
+  font-weight: 600;
+  color: #ff6600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.IT_Support_benefits_header .IT_Support_benefits_title {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.IT_Support_benefits_header .IT_Support_benefits_description {
+  font-size: 16px;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+}
+
+.IT_Support_benefits_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+.IT_Support_benefit_item {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px 20px 20px 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.IT_Support_benefit_item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+  /* background-color: #a4a3a3; */
+ 
+}
+
+.IT_Support_benefit_image_wrapper {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px auto;
+}
+
+.IT_Support_benefit_image_wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+  
+}
+
+.IT_Support_benefit_title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.IT_Support_benefit_text {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .IT_Support_benefits_header .IT_Support_benefits_title {
+    font-size: 30px;
+  }
+  .IT_Support_benefits_header .IT_Support_benefits_description {
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+}
+
+
+
+/* IT support benefits section start */
+
+
+
+/* IT Audit section start */
+
+
+/* IT Audit Section Stop */
+
+
+/* Why chose us section start */
+
+
+.why_choose_us_section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.why_choose_us_heading {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 50px;
+  color: #0d1b2a;
+}
+
+.iconlist {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 60px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.iconlist-item-icon {
+  margin-bottom: 15px;
+}
+
+.iconlist-item-icon img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.iconlist-item-content h4 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #1e293b;
+}
+
+.iconlist-item-content p {
+  font-size: 0.95rem;
+  color: #475569;
+  line-height: 1.6;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .iconlist {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .iconlist-item-icon {
+    text-align: center;
+  }
+
+  .iconlist-item-content {
+    text-align: center;
+  }
+}
+
+
+
+/* why chose us section stop */
+
+
+ 
+
+ 
+/* windows upgrade section  stop  */
+
+
+/* Happy clients section start */
+
+
+/* Section Base */
+.IT_Audit_Home_Page_Happy_Clients_section {
+  padding: 80px 20px;
+  background: #f9f9f9;
+}
+
+.IT_Audit_Home_Page_Happy_Clients_container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.IT_Audit_Home_Page_Happy_Clients_header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.IT_Audit_Home_Page_Happy_Clients_label {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #172F62;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.IT_Audit_Home_Page_Happy_Clients_title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.IT_Audit_Home_Page_Happy_Clients_subtitle {
+  font-size: 16px;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Grid Layout */
+.IT_Audit_Home_Page_Happy_Clients_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+/* Card */
+.IT_Audit_Home_Page_Happy_Client_card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  padding: 30px 25px;
+  max-width: 520px;
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.IT_Audit_Home_Page_Happy_Client_card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* Content Layout */
+.IT_Audit_Home_Page_Happy_Client_content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: left;
+}
+
+.IT_Audit_Home_Page_Happy_Client_image img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.IT_Audit_Home_Page_Happy_Client_text {
+  color: #444;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.IT_Audit_Home_Page_Happy_Client_source {
+  color: #999;
+  font-size: 13px;
+}
+
+/* Author Info */
+.IT_Audit_Home_Page_Happy_Client_author {
+  text-align: left;
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.IT_Audit_Home_Page_Happy_Client_name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.IT_Audit_Home_Page_Happy_Client_company {
+  color: #172F62;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.IT_Audit_Home_Page_Happy_Client_company:hover {
+  color: #172F62;
+}
+
+/* ✅ RESPONSIVE FIXES */
+@media (max-width: 992px) {
+  .IT_Audit_Home_Page_Happy_Clients_title {
+    font-size: 28px;
+  }
+
+  .IT_Audit_Home_Page_Happy_Client_card {
+    padding: 25px 20px;
+  }
+
+  .IT_Audit_Home_Page_Happy_Client_text {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .IT_Audit_Home_Page_Happy_Client_content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .IT_Audit_Home_Page_Happy_Client_author {
+    text-align: center;
+  }
+
+  .IT_Audit_Home_Page_Happy_Client_image img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .IT_Audit_Home_Page_Happy_Clients_subtitle {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .IT_Audit_Home_Page_Happy_Clients_section {
+    padding: 60px 15px;
+  }
+
+  .IT_Audit_Home_Page_Happy_Clients_title {
+    font-size: 24px;
+  }
+
+  .IT_Audit_Home_Page_Happy_Client_card {
+    padding: 20px 15px;
+  }
+
+  .IT_Audit_Home_Page_Happy_Client_text {
+    font-size: 14px;
+  }
+}
+
+
+/* Happy clients section stop */
+
+
+
+
